@@ -1,0 +1,760 @@
+@font-face {
+    font-family: "Cereal";
+    font-display: auto;
+    src: url("../fonts/AirbnbCereal-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Cereal";
+    font-display: auto;
+    src: url("../fonts/AirbnbCereal-Book.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cereal";
+    font-display: auto;
+    src: url("../fonts/AirbnbCereal-Light.ttf");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Cereal";
+    font-display: auto;
+    src: url("../fonts/AirbnbCereal-Medium.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url("../fonts/Averta-Light.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url("../fonts/Averta-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url("../fonts/Averta-Semibold.woff") format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url("../fonts/Averta-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    overflow: hidden;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+}
+
+* {
+    font-family: 'Averta';
+}
+
+@keyframes jump {
+    0% {
+        top: -5px;
+    }
+    50% {
+        top: 5px;
+    }
+    100% {
+        top: -5px;
+    }
+}
+
+.border {
+    border: 0 !important;
+    top: -120px;
+    right: 0px;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    z-index: -1;
+}
+
+.index h4 {
+    color: seagreen;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-family: 'Averta'
+}
+
+.second-border {
+    top: -220px;
+    right: -10px;
+    filter: brightness(96%);
+}
+
+.plant {
+    width: 785px;
+    right: -10px;
+    top: 105px;
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    text-align: left;
+    font-size: 53px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: limegreen;
+    width: 100%;
+    letter-spacing: -2.4px;
+}
+
+.jumbo {
+    padding-top: 180px;
+    padding-left: 90px;
+}
+
+.btn-success {
+    border: none;
+    background-color: limegreen;
+    font-weight: bold;
+}
+
+.sub {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.more {
+    font-size: 23px;
+    color: dimgray;
+    float: left;
+    font-family: 'Cereal';
+    font-weight: 600;
+    margin-top: 3%;
+    text-decoration: none !important;
+}
+
+.more:hover {
+    color: black;
+}
+
+.arrow {
+    color: limegreen;
+    position: relative;
+    vertical-align: text-bottom;
+    animation: jump 1.4s infinite;
+}
+
+.first {
+    padding-bottom: 110px;
+}
+
+.second {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+hr {
+    border: 0.4px gray solid;
+}
+
+.numbers {
+    height: 280px;
+    margin: auto;
+    display: block;
+}
+
+.steps {
+    padding: 20px;
+    margin: auto;
+}
+
+.steps h1 {
+    font-weight: bolder;
+    font-family: 'Cereal';
+    line-height: 1;
+    letter-spacing: -2.4px;
+}
+
+.steps p {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #2c2c2c;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    left: -200px;
+    position: absolute;
+    background-image: url("/static/img/farm.jpg");
+    background-size: cover;
+    background-position: top;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: block;
+}
+
+.third {
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.third h1,
+.third h2 {
+    text-align: center;
+}
+
+.third h2 {
+    color: #2c2c2c;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Averta';
+    font-size: 27px;
+}
+
+.square {
+    background-color: white;
+    width: 100%;
+    height: 212px;
+    margin-bottom: 33px;
+    border-radius: 7px;
+    box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.1), 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.square h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.sec img {
+    height: 100px;
+    padding-bottom: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.sec h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: limegreen;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.def, .def h1 {
+    text-align: center;
+}
+
+.def h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.def h5{
+    color: white;
+    background-color: limegreen;
+    border-radius: 10px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.def{
+    margin: auto;
+    padding: 0px 0px 30px 0px;;
+    display: block;
+    max-width: 70%;
+}
+
+.plan {
+    margin: auto;
+    display: block;
+    font-size: 27px;
+    padding: 7px 24px;
+    margin-bottom: 60px;
+    border-radius: 26px;
+}
+
+.responsive {
+    padding: 500px;
+}
+
+.block {
+    margin: auto;
+    display: block;
+    max-width: 45%;
+}
+
+div.step {
+    max-width: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.margin {
+    display: block;
+    margin: auto;
+}
+
+.plan-page{
+    margin-top: 45px;
+}
+
+.plan-page h4 {
+    color: seagreen;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 'Averta';
+    padding-top: 5px;
+}
+
+.price{
+    font-size: 28px !important;
+    color: limegreen;
+    font-weight: 700;
+}
+
+.plan-page .plan {
+    background-color: white;
+    color: limegreen;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px dimgray solid;
+}
+
+.plan-page .plan:hover {
+    background-color: limegreen;
+    color: white;
+    margin-top: 20px;
+    border: 3px white solid;
+}
+
+.plan-page ul{
+    padding: 0;
+    margin: 8px;
+    list-style-type: none;
+}
+
+.content{
+    bottom: 0px;
+}
+
+.plan-page li{
+    padding: 5px;
+    margin: 7px 27px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    background-color: limegreen;
+    border-radius: 7px;
+}
+
+.plan-page p{
+    margin-bottom: 0;
+}
+
+.plan-page h1{
+    margin-bottom: 3px;
+    font-size: 39px;
+    text-align: center;
+}
+
+.plans{
+    background-color: white;
+    margin-bottom: 28px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+.green{
+    text-align: center;
+    margin-top: 0px !important;
+}
+
+.plan-img{
+    height: 110px;
+    width: 110px;
+    margin: auto;
+    display: block;
+    padding: 5px;
+}
+
+@media (min-width: 1230px) and (max-width: 1440px) {
+    .plant {
+        width: 800px;
+        right: -80px;
+        top: 90px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1230px) {
+    .circle {
+        height: 550px;
+        width: 550px;
+        left: -180px;
+    }
+    .third h1 {
+        font-size: 40px;
+    }
+    .third h2 {
+        font-size: 26px;
+    }
+    h1 {
+        font-size: 49px;
+    }
+    .sub {
+        font-size: 18px;
+        padding: 7px;
+    }
+    .more {
+        font-size: 18px;
+    }
+    .plant {
+        width: 700px;
+        right: -70px;
+        top: 110px;
+    }
+    .square {
+        height: 220px;
+    }
+    .square h2 {
+        font-size: 30px;
+    }
+    .sec h3 {
+        font-size: 20px;
+        font-weight: bold;
+        color: limegreen;
+        margin-bottom: 0px;
+        display: inline-block;
+        vertical-align: text-bottom;
+    }
+    .sec img {
+        margin-right: 10px;
+    }
+    .features {
+        padding-left: 20px;
+    }
+    .sec p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sub {
+        width: 70%;
+    }
+    .first {
+        padding-bottom: 35px;
+    }
+    .plant {
+        width: 330px;
+        margin: 0 auto;
+        padding: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .numbers {
+        height: 260px;
+        margin: auto;
+        display: block;
+    }
+    .steps h1 {
+        font-size: 40px;
+    }
+    .steps p {
+        font-size: 18px;
+    }
+    .second {
+        padding-bottom: 50px;
+    }
+    .sec img {
+        height: 70px;
+        padding-bottom: 0px
+    }
+    .sec p {
+        font-size: 15px;
+    }
+    .features {
+        text-align: center;
+        padding: 10px;
+    }
+    .square {
+        height: 290px;
+    }
+    .jumbo {
+        text-align: center;
+        padding-top: 285px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .jumbo > * {
+        text-align: center;
+    }
+    .more {
+        text-align: center;
+        width: 100%;
+    }
+    .circle {
+        height: 500px;
+        width: 500px;
+        left: -170px;
+    }
+    .third {
+        margin-top: 0px;
+    }
+    .third h1 {
+        font-size: 38px;
+    }
+    .third h2 {
+        font-size: 20px;
+    }
+    .block {
+        max-width: 55%;
+        right: -70px;
+    }
+}
+
+@media (max-width: 880px) {
+    .block {
+        max-width: 50%;
+        right: -40px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        max-width: 96.5%;
+    }
+    div.step {
+        max-width: 85%;
+    }
+    .numbers {
+        height: 210px;
+        padding: 8px;
+    }
+    .three {
+        left: -30px;
+    }
+    .steps h1 {
+        font-size: 37px;
+    }
+    .steps p {
+        font-size: 17px;
+    }
+    .plant {
+        width: 330px;
+    }
+    h1 {
+        margin-top: -20px;
+        font-size: 42px;
+    }
+    .plan-page h1{
+        margin-top: 0px;
+    }
+    .sub {
+        font-size: 17px;
+        padding: 8px;
+        width: 85%;
+    }
+    .more {
+        font-size: 16px;
+    }
+    .third h1 {
+        font-size: 35px;
+    }
+    .third h2 {
+        font-size: 18px;
+    }
+    .block {
+        max-width: 40%;
+        right: -25px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .square {
+        height: 280px;
+    }
+    .square h2 {
+        font-size: 25px;
+    }
+
+    .sec img {
+        height: 60px;
+    }
+
+    .sec h3 {
+        font-size: 17px;
+    }
+    .sec p {
+        font-size: 13px;
+    }
+    .circle {
+        height: 400px;
+        width: 400px;
+        left: -150px;
+    }
+    .third h1 {
+        font-size: 30px;
+    }
+    .third h2 {
+        font-size: 16px;
+    }
+    .block {
+        max-width: 50%;
+        right: 0px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .square {
+        height: 300px;
+    }
+    .square h2 {
+        font-size: 24px;
+    }
+    .sec img {
+        height: 55px;
+    }
+
+    .sec h3 {
+        font-size: 16px;
+    }
+    .sec p {
+        margin-top: 3px;
+        font-size: 12px;
+    }
+    .plant {
+        width: 300px;
+        top: 90px;
+    }
+    .jumbo h1 {
+        width: 80%;
+        margin: auto;
+        display: block;
+        margin-top: -50px;
+        margin-bottom: 14px;
+        font-size: 38px;
+    }
+    .sub {
+        font-size: 16px;
+        padding: 8px;
+        width: 85%;
+    }
+    .more {
+        font-size: 15px;
+    }
+    div.step {
+        max-width: 100%;
+    }
+    .numbers {
+        height: 170px;
+        padding: 8px;
+    }
+    .three {
+        left: -20px;
+    }
+    .steps h1 {
+        font-size: 31px;
+    }
+    .steps p {
+        font-size: 14px;
+    }
+    .third {
+        padding: 10px 0px;
+    }
+    .cir,
+    .circle {
+        height: 200px;
+        width: 200px;
+        left: 0;
+        right: 0;
+        display: block;
+        max-width: 100%;
+        flex: 100%;
+        margin: 0 auto;
+    }
+    .block {
+        left: 0;
+        right: 0;
+        display: block;
+        max-width: 85%;
+        flex: 85%;
+        padding-top: 35px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .numbers {
+        height: 150px;
+        padding: 8px;
+    }
+    .first {
+        padding-bottom: 5px;
+    }
+    div.step,
+    div.margin {
+        max-width: 100%;
+        flex: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    }
+    .steps {
+        padding: 0;
+    }
+    .steps h1 {
+        text-align: center;
+    }
+    .ltr .step {
+        order: 2;
+    }
+    .three {
+        right: 0;
+        left: 0;
+        padding-right: 0;
+    }
+}
