@@ -43,8 +43,8 @@ class Navbar extends React.Component{
                 <div className="col-4">
                 <Link href="/">
                         <a className="tryte">
-                <img className="logo" src="/static/img/tryte.png"></img>
-                <img className="logo word" src="/static/img/logo.png"></img> 
+                <img className="logo word" src="/static/img/logo2.png"></img> 
+                
                         </a>
                 </Link>
             </div>
@@ -59,33 +59,10 @@ class Navbar extends React.Component{
                             <li>Home</li>
                         </a>
                         </Link>
-                        <Link scroll={false} href="/pricing">
-                        <a className="anchor">
-                            <li>Pricing</li>
-                        </a>
-                        </Link>
-                        <Link href="/microgreens">
-                        <a className="anchor">
-                            <li>Microgreens?</li>
-                        </a>
-                        </Link>
                         <Link href="/faq">
                         <a className="anchor">
                             <li>FAQ</li>
                         </a>
-                        </Link>
-                        <Link href="/contact">
-                        <a className="anchor">
-                            <li>Contact</li>
-                        </a>
-                        </Link>
-                        <Link href="/signup">
-                        <button type="button" className="subscribe btn btn-success">{this.state.userId ?
-                        this.state.userId + ", Hi"
-                        :
-                        "Get Started"}
-                            
-                        </button>
                         </Link>
                     </ul>
             </div>
